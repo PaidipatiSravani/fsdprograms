@@ -1,0 +1,16 @@
+functions(return keyword,arrow functions)
+objects,object methods
+arrays,aray methods,array of objects
+string,string methods
+number,number methods
+array iterations(foreach,map,for,while,dowhile,filter,reducer)
+spread,rest operator
+classes
+hoisting
+recursive function
+set interval and set timeout
+
+
+includes
+promises(async,await)
+regular expressions

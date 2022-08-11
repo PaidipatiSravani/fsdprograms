@@ -1,0 +1,11 @@
+package exceptionhandling;
+
+public class Constructor {
+Constructor(){
+	System.out.println("constructor calling");
+}
+	public static void main(String[] args) {
+		
+	}
+
+}
