@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: #f1efed;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #2a3477;
+  color: white;
+
+}
+
+.sidebar a:hover {}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.firstcard:hover {
+  color: #177edf;
+}
+
+#bankimage {
+  width: 20px;
+  height: 20px;
+  border: #707070;
+  fill: #707070;
+  border-radius: 50%;
+}
+
+button {
+  padding: 4px 50px;
+  border-color: #f37221;
+  background-color: white;
+  border-radius: 100px;
+  margin-right: 16px;
+
+}
+
+button:active {
+  background-color: #f37221;
+}
+#firstlist{
+background-color:  #2766a8;
+color: white;
+}
+button:hover {
+  background-color: #f37221;
+}
+
+#firstlist:active {
+  background-color: #2766a8;
+  color: white;
+}
+
+#firstlist:hover {
+  background-color: #2766a8;
+  color: white;
+}
+
+#navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card1,
+#card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#cardNumber {
+  background-image: url("D:\22082\react\payvoo_project\public\mastercard.png");
+  background-position: right;
+  padding-left: 10px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+#cardimage1 {
+  margin: -53px -280px 10px 10px;
+  width: 50px;
+  height: 31px;
+  fill: #2766a8;
+}
+
+#cardimage p,
+b,
+i {
+  text-align: left;
+}
+
+p {
+  text-align: "left";
+  font-size: "13px";
+}
+.secondcard .card-body{
+  margin:-8px 26px 25px 10px ;
+}
+.secondcard .swift{
+  margin:39px 10px 10px 10px;
+}
+.secondcard input {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-bottom: solid #f37221;
+
+  color: black;
+
+}
+
+.secondcard input:active {
+  background-color: white;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-bottom: solid black;
+
+  color: black;
+
+}
+
+.secondcard input:hover {
+  background-color: #FAFAFA;
+  color: black;
+}
+
+.secondcard .card {
+  margin: -555px 0px 24px 712px;
+}
+
+.secondcard h6 {
+  color: #246bad;
+  text-align: left;
+}
+
+.secondcard .list-group-item {
+  text-align: left;
+}
+.secondcard .local{
+  margin:39px 10px 10px 10px;
+}
+.twentyfive .card{
+  margin:0px 915px -17px 260px;
+}
+.twentyfive .card-body{
+  margin:10px 10px 230px -8px;
+}
+.twentyfivecard .card{
+margin:10px -14px 10px 0px;
+background-color: white;
+color: black;
+}
+.twentyfivecard .card-body{
+  margin:-8px 0px -42px 7px;
+}
+.eleventh .card{
+  margin:0px 915px -17px 260px;
+}
+.eleventh .card-body{
+  margin:10px 10px 84px -8px;
+}
+.eleventhcard .card{
+  margin:10px -14px 10px 0px;
+  background-color: white;
+  color: black;
+  }
+  .eleventhcard .card-body{
+    margin:10px 10px -35px -8px;
+  }

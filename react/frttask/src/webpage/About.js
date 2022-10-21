@@ -9,8 +9,8 @@ function About() {
     <div class="para">
         <h1 style={{color:'chocolate'}}>Innovative way of learning</h1>
     <p>Innovative teaching strategies don’t always mean introducing the latest and greatest technology into the classroom. Instead, innovative 
-        teaching is the process of proactively introducing new teaching strategies and methods into the classroom. The purpose of introducing
-          these new teaching strategies and methods is to improve academic  outcomes and address real problems to promote equitable learning.  </p>
+       teaching is the process of proactively introducing new teaching strategies and methods into the classroom. The purpose of introducing
+       these new teaching strategies and methods is to improve academic  outcomes and address real problems to promote equitable learning.  </p>
      </div>
      </div>
  )

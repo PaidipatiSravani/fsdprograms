@@ -3,8 +3,7 @@ import React, { useState } from 'react'
 function SubscribeDemo() {
     let[count,setCount]=useState(0);
     let[msg,setMsg]=useState("welcome to ReactJs.Please subscribe")
-    let[button,setButton]=useState("subscribe")
-    let[buttonmsg,setButtonMsg]=useState()
+    let[button,setButton]=useState("subscribe") 
     function subscribe(){
         setCount(count+1)
     

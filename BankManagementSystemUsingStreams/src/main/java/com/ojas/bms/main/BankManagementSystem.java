@@ -3,7 +3,6 @@ package com.ojas.bms.main;
 import java.util.Scanner;
 
 import com.ojas.bms.menu.BankDetails;
-import com.ojas.bms.model.Bank;
 
 public class BankManagementSystem {
 

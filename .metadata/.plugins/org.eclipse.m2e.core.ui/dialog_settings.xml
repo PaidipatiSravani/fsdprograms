@@ -2,13 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.ojas"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="CoreJava"/>
-			<item value="BankManagementSystem"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -22,7 +19,26 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="560" key="x"/>
+		<item value="76" key="y"/>
+		<item value="531" key="height"/>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -34,6 +50,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\22082\add_sub_buttons\src\main\java\buttons\Calculator.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,10 +63,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ojas.add_sub"/>
+			<item value="com.ojas.add_sub_buttons"/>
 		</list>
 		<list key="groupId">
+			<item value="com.ojas"/>
 		</list>
 		<list key="artifactId">
+			<item value="add_sub"/>
+			<item value="add_sub_buttons"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;add_sub_buttons/src/main/webapp/NewFile.html&apos; to &apos;Calculator.html&apos;" description="Rename resource &apos;NewFile.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/NewFile.html" name="Calculator.html" stamp="1665748042674" updateReferences="true"/>
+</session>

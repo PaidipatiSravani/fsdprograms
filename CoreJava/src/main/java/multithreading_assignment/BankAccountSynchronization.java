@@ -41,7 +41,6 @@ public class BankAccountSynchronization {
 				System.out.println("withdraw completed");
 			}
 		};
-		t1.start();
 		
 		Thread t2=new Thread(){
 			public void run(){
@@ -51,6 +50,7 @@ public class BankAccountSynchronization {
 			}
 		};
 		
+		t1.start();
 		t2.start();
 		}
 	}
